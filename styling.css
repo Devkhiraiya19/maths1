@@ -1,0 +1,164 @@
+
+#container {
+    width: 900px;
+/*    border: 1px solid grey;*/
+/*    height: 100px;*/
+    margin: 0px auto; 
+}
+
+h1 a{
+    font-size: 40px;
+    font-weight: 100;
+    color: #2a3acf;
+    text-decoration: none;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0px
+}
+#brand{
+    float: left;
+}
+
+#searchbox{
+    float: right;
+    background: linear-gradient(#0f9ae0,#0b57ee);
+    width: 300px;
+    height: 40px;
+    padding: 15px 15px 0px 15px;
+    margin-top: 10px; 
+}
+
+.text{
+    float: left;
+    width: 150px;
+    padding: 5px;
+    font-size: 10px;
+    color: black;
+    background: white url(images/sl.jpg) right center no-repeat;
+    border: 2px solid #020c96;
+   
+}
+.submit{
+    float: right;
+    padding: 2px;
+    width: 100px;
+    font-weight: bold;
+    background: linear-gradient(#68c8e8,#4d96e9);
+}
+
+.clear{
+    clear: both;
+}
+
+#menu{
+    height: 50px;
+    background: linear-gradient(#820663, #eb46dd);
+    padding: 5px 0px ;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0px 30px;
+    height: 20px;
+    border-right: 1px solid #dfb8df;
+    line-height: 20px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #dfb8df;
+    font-size: 15px;
+    transition: font-size 0.2s ease;
+}
+#menu ul li a:hover, #menu ul li a.active{
+    font-size:20px;
+    font-weight: bold;
+    color: #f9f5f9;
+}
+
+#menu ul li:last-child{
+    border-right:none;
+}
+
+#introduction{
+    background: linear-gradient(#276ee1,#27b3e1);
+    padding: 30px;
+    margin: 20px 0;
+}
+
+#introduction h2{
+    font-size: 35px;
+    color: black;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+#introduction p{
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 500px;
+    width: 420px;
+    border: #0808bd solid 1px;
+    border-radius: 20px;
+}
+
+.sidebar h2{
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #083ea9;
+}
+
+.sidebar ul li a:hover,.sidebar ul li a.active{
+    text-decoration: none;
+    color: #2a83b0;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #1e62e0;
+     transition: font-size 0.2s ease; 
+}
+
+#rightsidebar ul li{
+    padding: 5px;
+    list-style-image: url(images/right-arrow.png);
+}
+
+#leftsidebar ul li{
+    padding: 5px;
+    list-style-image: url(images/right-arrow.png);
+}
+
+#leftsidebar ul{
+    padding-top: 8px;
+}
+
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float:right;
+}
+
+.footer{
+    height: 50px;
+    background: linear-gradient(#eb50bf,#8f094a);
+   padding: 10px 30px;
+    margin-top: 20px;
+}
+
